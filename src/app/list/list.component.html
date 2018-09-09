@@ -1,0 +1,18 @@
+<div style="height: 200px; background-color:rgb(230, 126, 34    )">
+  <div class="container-fluid">
+    <div>
+      <p>
+        <b>
+          Store the data below as a JSON object in your file then print as a list to the web page on selecting 'list-btn'.
+        </b>
+      </p>
+    </div>
+    <br />
+    <div class="row justify-content-md-center" style="color:black">
+      <ul *ngIf="loaded">
+        <li *ngFor="let item of liData">{{item.name}}</li><!--For loop to get each items and print the item name-->
+      </ul>
+    </div>
+    <button class="btn btn-primary" (click)="list_btn()">List Data</button>
+  </div>
+</div>

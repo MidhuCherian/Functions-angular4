@@ -1,0 +1,23 @@
+<div style="height: 150px; background-color:rgb(230, 126, 34    )">
+  <div class="container ">
+    <div>
+      <p>
+        <b>
+          Implement the function so that if 'submit-btn' is selected without arguments or the argument is undefined an error message is printed to output-lbl. Otherwise it should print given value to output-lbl.
+        </b>
+      </p>
+    </div>
+    <br />
+
+    <div class="alert alert  alert-warning" role="alert" style="color:black">
+
+      <input type="text" [(ngModel)]="textValue" name="textValue" placeholder="Enter Values here" /><!--Texbox is created-->
+
+      <button type="button" class="btn btn-secondary btn-sm btn-outline-primary" (click)="submit_btn()">Submit </button><!--button -->
+      <br>
+
+      <label>{{output_lbl}}</label><!--Label is created to show the message-->
+    </div>
+  </div>
+  </div>
+

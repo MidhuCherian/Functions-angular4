@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\increment",
+    "\\src\\app\\list",
+    "\\src\\app\\validator"
+  ],
+  "SelectedNode": "\\src\\app\\list\\list.component.ts",
+  "PreviewInSolutionExplorer": false
+}
